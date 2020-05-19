@@ -42,8 +42,8 @@ def connect(host,user,password,release):
 def main():
   host='127.0.0.1'
   user='wh1z'
-  passfile='pass.txt'
-  fn=open(passfile,'r')
+  dictionaryfile='pass.txt'
+  fn=open(dictionaryfile,'r')
   for line in fn.readlines():
      if Found:
        print 'found !'
